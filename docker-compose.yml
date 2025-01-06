@@ -21,6 +21,7 @@ services:
       MYSQL_DATABASE: appdb
       MYSQL_USER: user
       MYSQL_PASSWORD: password
+
     volumes:
       - dbdata:/var/lib/mysql 
     ports:
