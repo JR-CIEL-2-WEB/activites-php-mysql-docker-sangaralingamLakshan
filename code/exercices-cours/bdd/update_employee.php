@@ -41,3 +41,4 @@ try {
     echo json_encode(["error" => "Erreur : " . $e->getMessage()]);
 }
 ?>
+    
